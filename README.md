@@ -1,5 +1,11 @@
 # AccessibleWebpage
 
+README to do: 'At a minimum, your project README needs a title and a short description explaining the what, why, and how. What was your motivation? Why did you build this project? (Note: The answer is not "Because it was a homework assignment.") What problem does it solve? What did you learn? What makes your project stand out? 
+
+Lastly, if your project is deployed, include a link to the deployed application here.'
+
+
+
 To make accessible, for example:
 - Use Alt command to describe an image
 - Use headings in proper order, h1, h2 etc.
