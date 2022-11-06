@@ -6,6 +6,7 @@ README to do: 'At a minimum, your project README needs a title and a short descr
 
 Deployed webpage link: https://avocadocoding.github.io/AccessibleWebpage/
 
+[Image of intended webpage design](assets\01-html-css-git-challenge-demo.png)
 
 Some considerations about accessible webpages, to make accessible, for example:
 - Use Alt command to describe an image
