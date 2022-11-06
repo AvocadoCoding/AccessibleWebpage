@@ -1,19 +1,20 @@
-# AccessibleWebpage
+# Accessible Webpage Project
+
+In this project I modified the HTML and CSS files for a webpage to make it more accessible, this means the website is better designed for a visually impaired person who uses a screen reading application to access the content of a webpage. To do this I used semantic HTML elements which have meaning in their names, I added descriptions to the images, did not include accessible information for decorative elements (background image and footer) and put the headings in order of importance.  
 
 README to do: 'At a minimum, your project README needs a title and a short description explaining the what, why, and how. What was your motivation? Why did you build this project? (Note: The answer is not "Because it was a homework assignment.") What problem does it solve? What did you learn? What makes your project stand out? 
 
-Lastly, if your project is deployed, include a link to the deployed application here.'
+Deployed webpage link: https://avocadocoding.github.io/AccessibleWebpage/
 
 
-
-To make accessible, for example:
+Some considerations about accessible webpages, to make accessible, for example:
 - Use Alt command to describe an image
 - Use headings in proper order, h1, h2 etc.
 - Use semantic tags as much as possible
 
-# 01 HTML CSS Git: Code Refactor
 
-## Your Task
+
+## Original Task Brief
 
 **Note**: Be sure to review the [Challenge Guide](./Challenge-Guide.md) and the [Good README Guide](./Good-README-Guide.md) before you start working on this assignment!
 
