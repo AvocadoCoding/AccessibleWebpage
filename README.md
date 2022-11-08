@@ -1,6 +1,6 @@
 # Accessible Webpage Project
 
-In this project I modified the HTML and CSS files for a webpage to make it more accessible, this means the website is better designed for a visually impaired person who uses a screen reading application to access the content of a webpage. To do this I used semantic HTML elements which have meaning in their names, I added descriptions to the images, did not include accessible information for decorative elements (background image and footer) and put the headings in order of importance. I also refactored some parts of the CSS code to merge and consolidate selectors with the same properties. 
+In this project I modified the HTML and CSS files for a webpage to make it more accessible, this means the website is better designed for a visually impaired person who uses a screen reading application to access the content of a webpage. To do this I used semantic HTML elements which have meaning in their names, I added descriptions to the images, did not include accessible information for decorative elements (background image and footer) and put the headings in order of importance. I also refactored some parts of the CSS code to merge and consolidate selectors with the same properties, and better follow the semantic structure of the HTML file. 
 
 
 Deployed webpage link: https://avocadocoding.github.io/AccessibleWebpage/

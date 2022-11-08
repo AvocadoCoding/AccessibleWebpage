@@ -60,7 +60,21 @@ p {
     font-size: 16px;
 }
 
-/*Specifying image and size and position o fbackground image below header*/
+/*Specifies footer section font type, text alignment, space around it, position and that it will not be visible*/
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    display: none
+}
+
+/*Specifies footer heading font size */
+.footer h2 {
+    font-size: 20px;
+}
+
+/*Specifying image and size and position of background image below header*/
 .hero {
     height: 800px;
     width: 100%;
@@ -68,6 +82,34 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+}
+
+/*Specifies main content boxes to be inline-blocks and 75% width of page*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/*Specifies section font colour, background colour, size, space around it and line break space, three classes merged into one CSS selector*/
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*Specifies image height, three classes merged into one CSS selector*/
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
+    max-height: 200px;
+}
+
+/*Specifies heading font size and line break size, three classes merged into one CSS selector*/
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 /*Used to move two pictures to left of content boxes*/
@@ -80,13 +122,6 @@ p {
 .float-right {
     float: right;
     margin-left: 25px;
-}
-
-/*Specifies main content boxes to be inline-blocks and 75% width of page*/
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
 }
 
 /*Positions the aside benefits box section on the right of screen, specifies size, fonts and background colour*/
@@ -118,39 +153,4 @@ p {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-/*Specifies section font colour, background colour, size, space around it and line break space, three classes merged into one CSS selector*/
-.search-engine-optimization, .online-reputation-management, .social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/*Specifies image height, three classes merged into one CSS selector*/
-.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
-    max-height: 200px;
-}
-
-/*Specifies heading font size and line break size, three classes merged into one CSS selector*/
-.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/*Specifies footer section font type, text alignment, space around it, position and that it will not be visible*/
-.footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-    display: none
-}
-
-/*Specifies heading font size */
-.footer h2 {
-    font-size: 20px;
 }
